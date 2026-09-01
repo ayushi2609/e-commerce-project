@@ -1,0 +1,24 @@
+# Frontend Dependencies
+node_modules/
+
+# Production Build Output
+dist/
+dist-ssr/
+build/
+
+# Environment Variables
+.env
+.env.*
+!.env.example
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
