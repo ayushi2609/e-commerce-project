@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "vercel-build": "cd backend && npm install && npx prisma generate && cd ../frontend && npm install && npm run build",
+    "vercel-build": "cd backend && npm install --include=dev && npx prisma generate && cd ../frontend && npm install --include=dev && npm run build",
     "backend:dev": "cd backend && npm run dev",
     "frontend:dev": "cd frontend && npm run dev"
   },
